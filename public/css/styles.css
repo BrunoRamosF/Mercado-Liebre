@@ -1,0 +1,435 @@
+   
+   /*  */
+body{
+background-color: #fff159;;
+font-size: 12px;
+font-family: 'Roboto', 'sans-serif';
+   }
+ /* Barra de navegacion */
+.navbar{
+display: inline-block;
+background-color: white;
+color: #d8cfcfa1;
+text-align: left;
+padding: 11px 0px 0px 26px;
+position: relative;
+top: 33%;
+left: 2%;
+height: 0%;
+}
+
+   /*  */
+.logo{
+display: flex;
+flex-wrap: wrap;
+}
+
+/* Texto de comprar en cuotas */
+.compra{
+text-align: center;
+width: 100%;
+position: relative;
+}
+
+
+/* Textos del header */
+a{
+text-decoration: none;
+color: #000;
+}
+
+
+.burguer-menu{
+text-align: center;
+color: white;
+background-color: #03264C ;
+padding: 6px;
+width: 20px;
+border-radius: 8px;
+margin: auto;
+}
+
+h2{
+font-size: 24px;
+}
+
+main{
+text-align: center;
+padding: 0% 10% 0% 10%;
+}
+
+/* Contenedor de cada articulo */
+.articulos{
+padding: 0px 10px 10px 10px;
+color:#0a0a0a;
+background-color: #c7c1c1;
+}
+
+/* Contenedor de el precio,logo y descripcion */
+.detalles{
+display:flex ;
+flex-wrap: wrap;
+position: relative;
+border-style: solid;
+border-radius: 1px;
+border-color: #ebebeb;
+background-color: white;
+flex-direction: row;
+transition:opacity 1s;
+opacity: 0;
+}
+
+.detalles:hover{
+opacity: 1;
+}
+
+/* Precio del producto */
+.precio{
+width: 30%;
+
+}
+
+.descuentos{
+text-align: left;
+color: rgb(3, 247, 35);
+width: 70%;
+}
+
+/* Descripcion del producto */
+.b{
+text-align:left;
+padding: 0px 15px 0px 15px;
+display: flex;
+flex-wrap: wrap;
+}
+
+
+
+h3{ 
+width: 100%;
+padding: 0px 10px 10px 10px;
+color:#0a0a0a;
+background-color: #c7c1c1;
+}
+
+
+.pantgrande{
+display: flex;
+margin: 0px 0px 0px 15px;
+transition: all 1s;
+}
+
+/* Los primeros tres links */
+.eleg1{
+display: flex;
+width: 46%;
+}
+
+.ofertas{
+width: 25%;
+}
+
+a{
+transition: 1s;
+}
+
+a:hover{
+color:#39b54a;
+}
+
+
+.tiendas{
+width: 25%;
+}
+.vender{
+width: 25%;
+}
+
+.ayuda{
+width: 25%;
+}
+
+/* Segundos tres links */
+.eleg2{
+display: flex;
+width: 40%;
+}
+
+.crearcuenta{
+width: 33%;
+}
+
+.ingresa{
+width: 33%;
+}
+
+.compras{
+width: 33%;
+}
+
+.imglogo{
+width: 33%;
+}
+
+/* Separacion entre "ayuda" y "crea tu cuenta" links */
+.espacioinv{
+font: 0/0 a;
+text-shadow: transparent;
+color: transparent;
+text-decoration: none;
+width: 14%;
+}
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+main section article i{
+display: block;
+font-size: 16px;
+padding: 5px;
+width: 30px;
+height: 30px;
+border: 1px solid #39b54a;
+color: #39b54a;
+background-color: #FFF;
+border-radius: 50%;
+position: absolute;
+right: 20px;
+top: -15px;
+transition: 1s;
+}
+
+main section article i:hover{
+transform: rotate(-90deg);
+}
+
+.formulario{
+text-align: left;
+width: 55%;
+background-color: #c7c1c1;
+padding: 2%;
+border-style: solid;
+border-radius: 2%;
+border-color: #000;
+}
+
+/* Espacios para completar los datos */
+.espacios{
+width: 100%;
+}
+
+.espacios:hover{
+border-radius: 2%;
+border-color: #39b54a;
+}
+
+/* Posicion del formulario */
+.for{
+padding: 0% 0% 0% 35%;
+}
+
+.titulo{
+text-align: left;
+}
+
+.instrucciones{
+padding: 5px 0px 5px 0px;
+}
+
+.enviar{
+color: #000;
+}
+
+.enviar:hover{
+background-color: #0022AA;
+color: #faf8f8;
+}
+
+footer{
+text-align: center;
+display: flex;
+position: relative;
+padding-top: 0px;
+padding-right: 0px;
+padding-bottom: 0px;
+padding-left: 4%;
+flex-wrap: wrap;
+background-color: white;
+}
+
+.icon-footer{
+font-size: 45px;
+margin-top: 50px;
+margin-bottom: 7px;
+width: 33%
+}
+
+.icon-footer p{
+font-size: 15px;
+}
+
+.center{
+text-align: center;
+}
+
+.copy{
+display: flex;
+flex-direction: column;
+padding-top: 1%;
+padding-bottom: 1%;
+padding-left: 41%;
+        }
+        
+.fa-credit-card{
+color: #1259C3;
+transition: 2s;
+}
+
+.fa-credit-card:hover{
+color: #39b54a;
+}
+
+.fa-gift{
+color: #1259C3;
+transition: 2s;
+}
+
+.fa-gift:hover{
+color: #39b54a;
+}
+        
+.fa-user-shield{
+color: #1259C3;
+transition: 2s;
+}
+
+.fa-user-shield:hover{
+color: #39b54a;
+}
+
+.fa-dollar-sign{
+width: 15%
+}
+    
+/* Adaptabilidad a moviles */
+@media( max-width:360px){
+.b{
+font: 0/0 a;
+text-shadow: transparent;
+color: transparent;
+text-decoration: none;
+}
+        
+.pantgrande{
+font: 0/0 a;
+text-shadow: transparent;
+color: transparent;
+text-decoration: none;
+}
+}
+
+.adaptable{
+display: flex;
+flex-wrap: wrap;
+padding-bottom: 2%;
+}
+
+.navbar{
+width: 50%;
+height: 0%;
+}
+
+
+/* Adaptabilidad a tablets */
+
+@media( min-width:361px){
+.detalles{
+border-style: solid;
+border-radius: 1px;
+border-color: #ebebeb;
+background-color: white;
+box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.img{
+box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.burguer-menu{
+font: 0/0 a;
+text-shadow: transparent;
+color: transparent;
+background-color: transparent;
+text-decoration: none;
+}
+
+.adaptable{
+display: flex;
+flex-wrap: wrap;
+padding-bottom: 2%;
+}
+
+.articulos{
+padding: 0px 10px 10px 10px;
+color:#0a0a0a;
+background-color: #c7c1c1;
+width: 50%;
+}
+
+.compra{
+text-align: center;
+width: 30%;
+text-align: center;
+width: 33%;
+top: 33%;
+position: relative;
+}
+
+.imglogo{
+width: 33%;
+}
+
+.navbar{
+width: 33%;
+}
+}
+
+
+/* Adaptabilidad a Computadoras */
+@media( min-width:769px ){
+.detalles{
+border-style: solid;
+border-radius: 1px;
+border-color: #ebebeb;
+background-color: white;
+box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.img{
+box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.burguer-menu{
+font: 0/0 a;
+text-shadow: transparent;
+color: transparent;
+background-color: transparent;
+text-decoration: none;
+}
+
+.adaptable{
+display: flex;
+flex-wrap: wrap;
+padding-bottom: 2%;
+}
+.articulos{
+padding: 0px 10px 10px 10px;
+color:#0a0a0a;
+background-color: #c7c1c1;
+width: 25%;
+}
+}
+
