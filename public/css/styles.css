@@ -56,33 +56,35 @@ font-size: 24px;
 main{
 text-align: center;
 padding: 0% 10% 0% 10%;
+background-color: #ebebeb;
 }
 
 /* Contenedor de cada articulo */
+
 .articulos{
 padding: 0px 10px 10px 10px;
 color:#0a0a0a;
-background-color: #c7c1c1;
+background-color: #ebebeb;
 }
 
 /* Contenedor de el precio,logo y descripcion */
 .detalles{
-display:flex ;
-flex-wrap: wrap;
-position: relative;
-border-style: solid;
-border-radius: 1px;
-border-color: #ebebeb;
-background-color: white;
-flex-direction: row;
-transition:opacity 1s;
-opacity: 0;
-}
-
-.detalles:hover{
-opacity: 1;
-}
-
+   display:flex ;
+   flex-wrap: wrap;
+   position: relative;
+   border-style: solid;
+   border-radius: 1px;
+   border-color: #c7c1c1;
+   background-color: white;
+   flex-direction: row;
+   transition:opacity 1s;
+   opacity: 0;
+   }
+   
+   .detalles:hover{
+   opacity: 1;
+   }
+   
 /* Precio del producto */
 .precio{
 width: 30%;
@@ -90,7 +92,7 @@ width: 30%;
 }
 
 .descuentos{
-text-align: left;
+text-align: center;
 color: rgb(3, 247, 35);
 width: 70%;
 }
@@ -103,13 +105,14 @@ display: flex;
 flex-wrap: wrap;
 }
 
+header{
+   padding: 15px;
+}
 
-
-h3{ 
+h2{ 
 width: 100%;
 padding: 0px 10px 10px 10px;
 color:#0a0a0a;
-background-color: #c7c1c1;
 }
 
 
@@ -197,7 +200,7 @@ color: #39b54a;
 background-color: #FFF;
 border-radius: 50%;
 position: absolute;
-right: 20px;
+right: 2px;
 top: -15px;
 transition: 1s;
 }
@@ -208,8 +211,8 @@ transform: rotate(-90deg);
 
 .formulario{
 text-align: left;
-width: 55%;
-background-color: #c7c1c1;
+width: 75%;
+background-color:#c7c1c1;
 padding: 2%;
 border-style: solid;
 border-radius: 2%;
@@ -228,9 +231,12 @@ border-color: #39b54a;
 
 /* Posicion del formulario */
 .for{
-padding: 0% 0% 0% 35%;
+padding: 0% 0% 0% 20%;
 }
 
+.for-ing{
+padding: 2% 0% 2% 20% ;
+}
 .titulo{
 text-align: left;
 }
@@ -349,7 +355,7 @@ height: 0%;
 .detalles{
 border-style: solid;
 border-radius: 1px;
-border-color: #ebebeb;
+border-color: #c7c1c1;
 background-color: white;
 box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
@@ -375,9 +381,15 @@ padding-bottom: 2%;
 .articulos{
 padding: 0px 10px 10px 10px;
 color:#0a0a0a;
-background-color: #c7c1c1;
+background-color: #ebebeb;
 width: 50%;
 }
+
+.descuentos {
+   text-align: center;
+   color: rgb(3, 247, 35);
+   width: 50%;
+ }
 
 .compra{
 text-align: center;
@@ -428,8 +440,17 @@ padding-bottom: 2%;
 .articulos{
 padding: 0px 10px 10px 10px;
 color:#0a0a0a;
-background-color: #c7c1c1;
+background-color: #ebebeb;
 width: 25%;
 }
+
+.descuentos{
+   text-align: center;
+color: rgb(3, 247, 35);
+width: 50%
 }
 
+.formulario{
+   width: 65%;
+}
+}

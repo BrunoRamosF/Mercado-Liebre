@@ -14,7 +14,7 @@ app.post("/register", (req,res) =>{
 })
 
 app.post("/ingresar", (req,res) =>{
-    res.redirect("http://localhost:3023")
+    res.redirect("/")
 })
 
 
